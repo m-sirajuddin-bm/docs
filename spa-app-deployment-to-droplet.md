@@ -184,3 +184,9 @@ sudo nginx -t
 sudo systemctl restart nginx
 
 > NOTE: Make sure to replace <your-app-name>, <your-created-user>, <your_app_domain>, and other placeholders with your actual values. Additionally, review the configurations and commands to ensure they align with your specific setup and requirements.
+
+### Other useful setup links
+
+I got my inspiration for creating this document from the following link: [How To Deploy an ASP.NET Core Application with MySQL Server Using Nginx](https://www.digitalocean.com/community/tutorials/how-to-deploy-an-asp-net-core-application-with-mysql-server-using-nginx-on-ubuntu-18-04#step-4-configuring-the-web-server).
+
+I wanted to deploy a .Net 7 API with mysql and Vue3 frontend applications. If you need any help in this, please reach out to be @ "m.sirajuddin.bm@gmail.com".
