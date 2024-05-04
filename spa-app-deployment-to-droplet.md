@@ -1,11 +1,14 @@
 # SPA App Deployment to Digital Ocean Droplet
 
+I will be explaining how to deploy Vue3 SPA app to digital ocean droplet.
+
 ## Pre-requisites
 
 Before proceeding, make sure you have completed the following tutorials:
-- [Initial Server Setup with Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04)
-- [How To Install Nginx on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
-- [How To Secure Nginx with Let's Encrypt on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04)
+- [Ubuntu initial server setup guide](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04)
+- [Initial Server Setup with Ubuntu](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04)
+- [How To Install Nginx on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
+- [How To Secure Nginx with Let's Encrypt on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04)
 > NOTE: Throughout this guide, we will be using the non-root user created in the initial server setup, so `sudo` is prefixed to most commands.
 
 ## Step 1: Refresh your local package index
@@ -151,7 +154,7 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 
-    # The following will be added by step 3 in the link given above. If not, please add it manually.
+    # The following will be added by pre-requisite step (How To Install Nginx on Ubuntu) above. If not, please add it manually.
 
     # Please make sure the following line is not added to multiple blocks.
     listen [::]:443 ssl ipv6only=on; # managed by Certbot
