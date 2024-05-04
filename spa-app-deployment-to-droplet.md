@@ -56,6 +56,8 @@ sudo git clone <repo-url> /var/www/<your-app-name>
 sudo git clone https://<personal-token>@github.com/<repo-url>.git /var/www/<your-app-name>
 ```
 
+[Managing your github personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+
 ### Install dependencies
 ```bash
 sudo yarn install
